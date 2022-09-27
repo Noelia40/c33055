@@ -1,0 +1,141 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+header {
+    height: 10vh;
+    background-color:#ae736f ;
+}
+ #nav {
+    height: 10vh;
+ }
+main {
+    height: 85vh;
+    background-color: #70454e ;
+}
+
+footer {
+    height: 5vh;
+    background-color:#ae736f;
+}
+
+
+ div h1 {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        background-image:linear-gradient(90deg, rgba(238,183,212,1) 25%, rgba(242,134,207,1) 51%);
+     }
+     
+  
+    
+     
+    
+    
+
+        div h3 {
+            background-image:linear-gradient(90deg, rgba(238,183,212,1) 25%, rgba(242,134,207,1) 51%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display:flex ;
+            transform: translate(10px);
+            animation-name: mi_animacion;
+            animation-duration:1s ;
+            animation-duration:5s ;
+            animation-iteration-count:infinite ;
+        
+         }
+
+         div h4 {
+            background-image:linear-gradient(90deg, rgba(238,183,212,1) 25%, rgba(242,134,207,1) 51%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display:flex ;
+            transform: translate(10px);
+            animation-name: mi_animacion2;
+            animation-duration:1s ;
+            animation-duration:5s ;
+            animation-iteration-count:infinite ;
+        
+         }
+
+        
+
+
+
+
+
+     
+     
+     @keyframes mi_animacion {
+
+        0% {
+            transform: translate(400px);
+            
+        
+        }
+        
+        25% {
+            transform: translate(400px); 
+           
+        
+        }
+        50% {
+          
+        }
+        75% {
+           
+        
+        }
+        100% {
+            
+        }
+        }
+        
+        
+        
+         .animate__animated.animate__backInLeft {
+            --animate-delay:20s;  
+            }
+
+
+
+            @keyframes mi_animacion2 {
+
+                0% {
+                    transform: translate(0px);
+                
+                
+                }
+                
+                25% {
+                    transform: translate(10px); 
+                
+                
+                }
+                50% {
+                    transform: translatey(20px);
+            
+                
+                }
+                75% {
+                    
+                
+                
+                }
+                100% {
+                    transform: translatey(-20px);
+                    
+                
+                }
+                }
+                
+
+
+
+        
